@@ -10,7 +10,7 @@ const promiseOne = new Promise(function(resolve, reject){
 promiseOne.then(function(){
     console.log("Promise consumed");
 })
-
+// another way of writing promise//
 new Promise(function(resolve, reject){
     setTimeout(function(){
         console.log("Async task 2");
