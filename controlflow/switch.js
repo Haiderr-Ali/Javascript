@@ -1,4 +1,4 @@
-// switch (key == wo value to check krna hai) {
+// switch (key == wo value to check krta hai) {
 //     case value: // value will be strings also
         
 //         break;
