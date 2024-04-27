@@ -59,7 +59,7 @@ let anotherUsername = "ChaiAurCode     "
 
 String.prototype.trueLength = function(){
     console.log(`${this}`);
-    console.log(`True length is: ${this.trim().length}`);
+    console.log(`True length is: ${this.trim().length}`); // this is an old method
 }
 
 anotherUsername.trueLength()
