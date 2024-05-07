@@ -14,7 +14,7 @@
 // }
 
 // MAP
-// it outputs elements uniquely
+// it outputs elements uniquely no duplicate element will get printed
 // const map = new Map()
 // map.set ('IN' , "India")
 // map.set ('USA' , "United states of america")
