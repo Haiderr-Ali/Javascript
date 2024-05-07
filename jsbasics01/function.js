@@ -11,7 +11,7 @@ console.log("result:", result);
 
 //another way of declaring arguments//
 function loginUserMessage(username){
-    return `${username} just logged in`
+    return `${username} just logged in` // yahanpe username wahi aaye ga jo hm argument me pass krenge
 }
 console.log(loginUserMessage("haider"))   // argument passed to parameters//
 
@@ -21,6 +21,11 @@ function calculateCartPrice(...num1) {
 }
 console.log(calculateCartPrice(200,400,500)) //here in this method using rest operator we passed many arguments to just one parameter
 
+
+function calculateCartPrice2(val1,val2,...num1) {
+    return num1
+}
+console.log(calculateCartPrice2(200,400,500,2000)) //here val1 and val2 gets 200 and 400 but num1 will get 500 and 2000 in the form of array//
 
 // object passing in function
 const user = {
