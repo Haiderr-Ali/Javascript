@@ -5,7 +5,7 @@ console.log(gameName)
 console.log(gameName[0])
 console.log(gameName.__proto__)
 console.log(gameName.length)
-console.log(gameName.toLowerCase())
+console.log(gameName.toLowerCase()) // we can access its prototype methods using this . syntax
 console.log(gameName.charAt(3))
 console.log(gameName.indexOf("I"))
 
