@@ -23,6 +23,7 @@ function one() {
         const website = "youtube"
         console.log(username); // child function can call parent function values, but parent function can't
     }
+    console.log(website); // it will give error//
     two()
 }
 one()
