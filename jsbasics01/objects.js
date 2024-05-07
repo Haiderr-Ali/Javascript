@@ -3,6 +3,8 @@
 //how to add symbol in object key
 const mySym = Symbol("key1")
 
+
+// these are the object literals metjod of declering object//
 const jsUser={
     name:"Haider",
     "full name": "haider ali", //we can declare variable name as string, it is possible in js//
@@ -77,3 +79,10 @@ const course = {
  console.log(instructor);
 const {price} = course
 console.log(price);
+
+
+
+
+// important concept when we get the information from databases//
+console.log(object.key(tinderUser)); // it gives all the keys of an object (but its type will be array)
+console.log(object.value(tinderUser)); // it gives all the values of an object (but its type will also be array)
