@@ -37,6 +37,8 @@ console.log(myn2);
 //Merging of two array
 const marvel_Hero=["thor","ironman","superman"]
 const dc_Hero=["spiderman","flash","batman"]
+
+
 //now to merge two array together we use SPREAD OUT METHOD//
 const allNewHero=[...marvel_Hero, ...dc_Hero] //this is the syntax of spread out method
 console.log(allNewHero);
