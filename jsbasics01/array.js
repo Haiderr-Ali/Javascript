@@ -18,7 +18,7 @@ console.log(myArr);
  console.log(myArr.includes(9)); // it tells whether the element is present or not (in boolean value)
  console.log(myArr.indexOf(10)); // it tells about the index of an element
 
-const newArr = myArr.join() // it changes the array to string
+const newArr = myArr.join() // it changes the typeof array to string
  console.log(myArr);
  console.log(newArr);
  console.log(typeof newArr);
