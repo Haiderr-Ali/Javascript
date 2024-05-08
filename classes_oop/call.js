@@ -5,7 +5,7 @@ function SetUsername(username){
 }
 
 function createUser(username, email, password){
-    SetUsername.call(this, username)
+    SetUsername.call(this, username) // here .call is giving reference to call another function into this function........ and this gives reference to that username
    
     this.email = email
     this.password = password
