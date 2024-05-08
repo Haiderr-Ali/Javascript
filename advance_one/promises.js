@@ -65,7 +65,7 @@ const promiseFive = new Promise(function(resolve, reject){
     }, 1000)
 });
 
-async function consumePromiseFive(){
+async function consumePromiseFive(){ // this method is also same as then and catch here resolve part went to try and error part will went to catch//
     try {
         const response = await promiseFive
         console.log(response);
