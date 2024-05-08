@@ -31,7 +31,7 @@ function User(username, loginCount, isLoggedIn){
     return this
 }
 
-const userOne = new User("hitesh", 12, true)
+const userOne = new User("hitesh", 12, true) //new keyword will create new instance ofuser function//
 const userTwo = new User("ChaiAurCode", 11, false)
 console.log(userOne.constructor);
 //console.log(userTwo);
