@@ -47,10 +47,10 @@ const promiseFour = new Promise(function(resolve, reject){
     console.log(user);
     return user.username
 }).then((username) => {
-    console.log(username);
-}).catch(function(error){
+    console.log(username); // in this method of promise the data coming from above user will go in this then.username//
+}).catch(function(error){ // here reject case will come in catch
     console.log(error);
-}).finally(() => console.log("The promise is either resolved or rejected"))
+}).finally(() => console.log("The promise is either resolved or rejected")) //the finally keyword will act as default, it will tell us that your promise will resolve or reject//
 
 
 
