@@ -14,7 +14,7 @@ class User {
         return `${this.username.toUpperCase()}`
     }
 
-}
+} // here in this code we created class constructor //
 
 const chai = new User("chai", "chai@gmail.com", "123")
 
