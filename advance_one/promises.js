@@ -1,6 +1,6 @@
 const promiseOne = new Promise(function(resolve, reject){
     //Do an async task
-    // DB calls, cryptography, network
+    // DB calls, cryptography, network etc
     setTimeout(function(){
         console.log('Async task is compelete');
         resolve()
