@@ -15,7 +15,7 @@ const anotherString = gameName.slice(-9,6)
 console.log(anotherString)
 console.log(newString)
 
-const againString = new String('        Tabrez    ')
+const againString = new String('        Haider    ') // here first create new String then store into another and then apply trim function
 
 console.log(againString.trim())  //REMOVE ALL SPACES
 
