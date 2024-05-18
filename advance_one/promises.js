@@ -1,3 +1,6 @@
+// .then is connected to resolve
+// .catch is connected to reject
+
 const promiseOne = new Promise(function(resolve, reject){
     //Do an async task
     // DB calls, cryptography, network etc
